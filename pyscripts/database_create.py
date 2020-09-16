@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import mysql.connector
 import numpy as np
 mydb = mysql.connector.connect(host="localhost",user="bitch",password="42069xd",database="Airplanes")
@@ -21,16 +15,3 @@ mycursor.executemany(sql, val)
 mydb.commit()
 
 print(mycursor.rowcount, "was inserted.")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-

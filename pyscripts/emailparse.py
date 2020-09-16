@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import numpy as np
 import sys
 
@@ -47,10 +41,3 @@ def emailparse(filename):
     return(data3)
 
 emailparse("/var/www/data/Airplanes.eml")
-
-
-# In[ ]:
-
-
-
-
